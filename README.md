@@ -1,1 +1,1 @@
-# itmd361-project2
+# ITMD361 Project 2
