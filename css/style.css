@@ -1,0 +1,26 @@
+.clear {
+  clear: both;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  background-color: blue;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+}
+nav ul li a:hover {
+  background-color: #ccc;
+  color: #000;
+}
