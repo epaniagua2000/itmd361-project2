@@ -1,26 +1,36 @@
-.clear {
-  clear: both;
+#main-navbar {
+  background-color: navy;
+  overflow: hidden;
 }
-nav ul {
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-nav ul li {
+  position: relative;
+  left: 50%;
   float: left;
-  background-color: blue;
 }
-nav ul li a {
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
   display: block;
-  padding: 20px;
-  font-size: 20px;
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: Arial, sans-serif;
+  font-size: 1.25em;
 }
-nav ul li a:hover {
-  background-color: #ccc;
-  color: #000;
+#main-navbar ul li a:hover {
+  text-decoration: solid underline black 4px;
+}
+#onpage {
+  background-color: blue;
 }
