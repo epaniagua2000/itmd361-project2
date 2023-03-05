@@ -89,7 +89,11 @@ blockquote {
   max-width: 60%;
 }
 #lyricscontent-wrapper {
-  background-color: #C3CDE6;
+  background-color: burlywood;
+}
+#lyricscontent-wrapper h1 {
+  border: solid peru 10px;
+  background-color: wheat;
 }
 #farmcontent-wrapper {
   font-family: 'sh_pinscherregular';
