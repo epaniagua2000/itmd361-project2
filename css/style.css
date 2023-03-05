@@ -41,6 +41,9 @@ h1 {
 .centered {
   text-align: center;
 }
+p, h4{
+  font-size: 1.15em;
+}
 #fixedcontainer {
   width: 960px;
   margin: 0 auto;
@@ -50,7 +53,7 @@ h1 {
 }
 #fixedcontainer h2 {
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 #fluidcontainer {
   width:100%
@@ -59,9 +62,11 @@ h1 {
 }
 blockquote {
   padding: 5px 0;
+  font-family: 'Fondamento', cursive;
 }
-#largemedia {
+#media {
+  display: block;
+  margin: 10px auto;
   height: auto;
   max-width: 60%;
-  border: 3px solid black;
 }
