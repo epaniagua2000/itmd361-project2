@@ -68,7 +68,6 @@ p, h4 {
   width:100%
   position: relative;
   padding: 0 30px;
-  background-color: #C3CDE6;
 }
 #fluidcontainer h1{
   margin: 0;
@@ -89,14 +88,19 @@ blockquote {
   height: auto;
   max-width: 60%;
 }
-#pixelfont {
+#lyricscontent-wrapper {
+  background-color: #C3CDE6;
+}
+#farmcontent-wrapper {
   font-family: 'sh_pinscherregular';
   font-size: 1.5em;
   font-weight: 500;
+  background-color: limegreen;
 }
-#pixelfont p {
+#farmcontent-wrapper p {
   line-height: 30px;
 }
-#pixelfont h1 {
+#farmcontent-wrapper h1 {
   border: solid brown 10px;
+  background-color: gold;
 }
