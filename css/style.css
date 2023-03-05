@@ -78,9 +78,11 @@ p, h4 {
 }
 #cursivefont {
   padding: 20px 0 0 0;
+  font-size: 2em;
 }
 blockquote {
   padding: 5px 0;
+  font-size: 1.25em;
 }
 #media {
   display: block;
@@ -94,6 +96,9 @@ blockquote {
 #lyricscontent-wrapper h1 {
   border: solid peru 10px;
   background-color: wheat;
+}
+#lyricscontent-wrapper p {
+  font-size: 1.3em;
 }
 #farmcontent-wrapper {
   font-family: 'sh_pinscherregular';
