@@ -1,6 +1,8 @@
 #main-navbar {
   background-color: navy;
   overflow: hidden;
+  font-size: 1.25em;
+  font-family: tahoma, sans-serif;
 }
 #navbar-container {
   float: left;
@@ -26,7 +28,6 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  font-size: 1.25em;
 }
 #main-navbar ul li a:hover {
   text-decoration: solid underline black 4px;
@@ -35,14 +36,20 @@
   background-color: blue;
 }
 /* Above is all navigation */
-h1 {
-  font-size: 2.25em;
-}
 .centered {
   text-align: center;
 }
-p, h4{
+h1 {
+  font-size: 2.25em;
+}
+p, h4 {
   font-size: 1.15em;
+}
+#fixedcontainer ul li, p {
+  line-height: 25px;
+}
+#cursivefont, h4 {
+  margin: 0;
 }
 #fixedcontainer {
   width: 960px;
@@ -50,19 +57,31 @@ p, h4{
   overflow: hidden;
   position: relative;
   left: 100px;
+  font-family: tahoma, sans-serif;
 }
 #fixedcontainer h2 {
   text-transform: uppercase;
   font-size: 1.3em;
+  padding-top: 20px;
 }
 #fluidcontainer {
   width:100%
   position: relative;
   padding: 0 30px;
+  background-color: #C3CDE6;
+}
+#fluidcontainer h1{
+  margin: 0;
+  padding: 20px 0;
+}
+#cursivefont, blockquote {
+  font-family: 'Fondamento', cursive;
+}
+#cursivefont {
+  padding: 20px 0 0 0;
 }
 blockquote {
   padding: 5px 0;
-  font-family: 'Fondamento', cursive;
 }
 #media {
   display: block;
@@ -74,4 +93,10 @@ blockquote {
   font-family: 'sh_pinscherregular';
   font-size: 1.5em;
   font-weight: 500;
+}
+#pixelfont p {
+  line-height: 30px;
+}
+#pixelfont h1 {
+  border: solid brown 10px;
 }
