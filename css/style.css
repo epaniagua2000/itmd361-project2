@@ -69,7 +69,7 @@ p, h4 {
   position: relative;
   padding: 0 30px;
 }
-#fluidcontainer h1{
+#fluidcontainer h1 {
   margin: 0;
   padding: 20px 0;
 }
@@ -80,21 +80,19 @@ p, h4 {
   padding: 20px 0 0 0;
   font-size: 2em;
 }
-blockquote {
-  padding: 5px 0;
-  font-size: 1.25em;
-}
 #media {
   display: block;
   margin: 10px auto;
   height: auto;
   max-width: 60%;
+  border: solid black 3px;
 }
 #lyricscontent-wrapper {
   background-color: burlywood;
 }
 #lyricscontent-wrapper h1 {
   border: solid peru 10px;
+  border-style: double;
   background-color: wheat;
 }
 #lyricscontent-wrapper p {
@@ -111,5 +109,10 @@ blockquote {
 }
 #farmcontent-wrapper h1 {
   border: solid brown 10px;
+  border-style: ridge;
   background-color: khaki;
+}
+blockquote {
+  padding: 5px 0;
+  font-size: 1.25em;
 }
