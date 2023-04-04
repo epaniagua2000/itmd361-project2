@@ -42,15 +42,7 @@
 h1 {
   font-size: 2.25em;
 }
-p, h4 {
-  font-size: 1.15em;
-}
-#fixedcontainer ul li, p {
-  line-height: 25px;
-}
-.cursivefont, h4 {
-  margin: 0;
-}
+/* Below is Resume Layout */
 #fixedcontainer {
   width: 960px;
   margin: 0 auto;
@@ -59,26 +51,18 @@ p, h4 {
   left: 100px;
   font-family: tahoma, sans-serif;
 }
+#fixedcontainer p, h4 {
+  font-size: 1.15em;
+}
+#fixedcontainer ul li, p {
+  line-height: 25px;
+}
 #fixedcontainer h2 {
   text-transform: uppercase;
   font-size: 1.3em;
   padding-top: 20px;
 }
-#cursivefont, blockquote {
-  font-family: 'Fondamento', cursive;
-}
-#cursivefont {
-  padding: 20px 0 0 0;
-  font-size: 2em;
-}
-.media {
-  display: inline;
-  margin-right: 2%;
-  margin-left: 13%;
-  height: auto;
-  max-width: 60%;
-  border: solid black 3px;
-}
+/* Below is Lyric layout */
 #lyricscontent-wrapper {
   background-color: burlywood;
 }
@@ -92,13 +76,44 @@ p, h4 {
   margin-right: auto;
   text-align: center;
 }
-#lyricintro {
-  margin: 0 5% 0 5%;
-}
 #lyricscontent-wrapper p {
   font-size: 1.3em;
   line-height: 35px;
 }
+#lyricintro {
+  margin: 0 5% 0 5%;
+}
+.cursivefont, h4 {
+  margin: 0;
+}
+h2.cursivefont {
+  font-size: 2.2em;
+}
+#cursivefont {
+  padding: 20px 0 0 0;
+  font-size: 2em;
+}
+#cursivefont, blockquote {
+  font-family: 'Fondamento', cursive;
+}
+blockquote {
+  padding: 5px 0;
+  font-size: 1.25em;
+  background-color: wheat;
+  border-style: outset;
+  border-color: burlywood;
+}
+#tolerateit {
+  float: left;
+  width: 40%;
+  margin: 5% 5% 0 5%;
+}
+#cardigan {
+  float: left;
+  width: 45%;
+  margin: 5% 0 3% 0;
+}
+/* Below is Farm layout */
 #farmcontent-wrapper {
   font-family: 'sh_pinscherregular';
   font-weight: 500;
@@ -122,26 +137,6 @@ p, h4 {
 #farmcontent-wrapper h2 {
   font-size: 2.4em;
 }
-blockquote {
-  padding: 5px 0;
-  font-size: 1.25em;
-  background-color: wheat;
-  border-style: outset;
-  border-color: burlywood;
-}
-#tolerateit {
-  float: left;
-  width: 40%;
-  margin: 5% 5% 0 5%;
-}
-#cardigan {
-  float: left;
-  width: 45%;
-  margin: 5% 0 3% 0;
-}
-h2.cursivefont {
-  font-size: 2.2em;
-}
 #farmanimals {
   float: left;
   width: 31%;
@@ -160,6 +155,14 @@ h2.cursivefont {
 #farmlayout {
   float: left;
   margin: 2%
+}
+.media {
+  display: inline;
+  margin-right: 2%;
+  margin-left: 13%;
+  height: auto;
+  max-width: 60%;
+  border: solid black 3px;
 }
 #largemedia.media {
   display: block;
